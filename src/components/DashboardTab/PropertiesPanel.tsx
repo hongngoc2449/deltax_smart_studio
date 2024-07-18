@@ -18,7 +18,8 @@ const PropertiesPanel: React.FC = () => {
 
   return (
     <Box sx={{ 
-      width: 250, 
+      width: '100%', 
+      maxWidth: 250, 
       position: 'absolute', 
       top: 20, 
       right: 20, 

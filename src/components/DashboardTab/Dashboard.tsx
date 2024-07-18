@@ -1,14 +1,16 @@
 import React from 'react';
 import PropertiesPanel from './PropertiesPanel';
+import { useTheme, useMediaQuery, Box } from '@mui/material';
 
 const Dashboard: React.FC = () => {
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
+
   return (
-    <div style={{ position: 'relative', height: '100%' }}>
-      <h1>Dashboard</h1>
+    <Box sx={{ position: 'relative', height: '100%', padding: isSmallScreen ? '10px' : '20px' }}>
       <PropertiesPanel />
-    </div>
+    </Box>
   );
 };
 
 export default Dashboard;
-
