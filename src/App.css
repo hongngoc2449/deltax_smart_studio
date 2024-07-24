@@ -57,7 +57,7 @@ body {
 }
 
 .sidebar {
-    width: 200px;
+    width: 15%;
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
@@ -95,7 +95,7 @@ body {
 }
 
 .main-content {
-    width: 85%;
+    width: 80%;
     height: 90%;
     padding: 20px;
     justify-content: center;
