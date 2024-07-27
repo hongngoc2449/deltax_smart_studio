@@ -28,7 +28,8 @@ const FlowTab: React.FC = () => {
         sx={{
           display: 'flex',
           flexDirection: isSmallScreen ? 'column' : 'row',
-          gap: isSmallScreen ? '3%' : '5%',
+          gap: isSmallScreen ? '2%' : '3%',
+          
         }}
       >
         <Box
@@ -38,7 +39,7 @@ const FlowTab: React.FC = () => {
             padding: isSmallScreen ? '10px' : '20px',
             borderRadius: '10px',
             boxShadow: '2px 2px 20px rgba(0, 0, 0, 0.5)',
-            marginBottom: isSmallScreen ? '20px' : '14%',
+            marginBottom: isSmallScreen ? '20px' : '16%',
             overflow: 'hidden',
           }}
         >
